@@ -9,7 +9,7 @@ const Navbar = () => {
     <AppBar position="fixed" sx={{ backgroundColor: "#3f51b5" }}>
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Blog App
+          Blog Sphere
         </Typography>
         {location.pathname !== "/" && (
           <Button
